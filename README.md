@@ -1,12 +1,12 @@
 > 📜 other templates available at https://github.com/SkyrimScripting/SKSE_Templates
 
-# SKSE "Hello, world!"
+# SKSE plugin using .cpp and .h files
 
 Very simple C++ SKSE plugin for Skyrim!
 
 ---
 
-- [SKSE "Hello, world!"](#skse-hello-world)
+- [SKSE plugin using .cpp and .h files](#skse-plugin-using-cpp-and-h-files)
 - [What does it do?](#what-does-it-do)
 - [CommonLibSSE NG](#commonlibsse-ng)
 - [Requirements](#requirements)
@@ -20,7 +20,10 @@ Very simple C++ SKSE plugin for Skyrim!
 
 After running Skyrim, once at the Main Menu, press the `~` key to open the game console.
 
-You will see that we printed `"Hello, world!"` to the console at the Main Menu 🐉
+You will see that we printed `"Akatosh!"` to the console at the Main Menu 🐉
+
+This comes from the `Dragon` class's `PrintName()` function which is declared in
+`Dragon.h` but defined in `Dragon.cpp`.
 
 # CommonLibSSE NG
 
